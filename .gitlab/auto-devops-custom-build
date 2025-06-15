@@ -1,0 +1,6 @@
+#!/bin/bash
+# Force your custom image naming
+docker build \
+  -t "$CI_REGISTRY_USER/solar_system:$CI_PIPELINE_ID" \
+  -t "$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG" \
+  .
