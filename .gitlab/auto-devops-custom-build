@@ -1,8 +1,0 @@
-#!/bin/bash
-# Force your custom image naming
-docker build \
-  -t "$CI_REGISTRY_IMAGE:$IMAGE_VERSION" \
-  -t "$CI_REGISTRY_IMAGE:latest" \
-  .
-docker push "$CI_REGISTRY_IMAGE:$IMAGE_VERSION"
-docker push "$CI_REGISTRY_IMAGE:latest"
