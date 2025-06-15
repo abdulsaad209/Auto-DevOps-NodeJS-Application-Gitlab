@@ -1,0 +1,8 @@
+include:
+  - template: Auto-DevOps.gitlab-ci.yml
+
+# Keep your custom variables
+variables:
+  K8S_IMAGE: $CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG
+  MONGO_URI: mongodb://superuser:$PASSWORD@192.168.100.47:27017/solar_system
+
