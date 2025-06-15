@@ -1,5 +1,8 @@
+ci_access:
+  projects:
+    - id: devops-group/Auto-DevOps-NodeJS-Application-Gitlab
 user_access:
   access_as:
-    user: {}
+    agent: {}
   projects:
     - id: devops-group/Auto-DevOps-NodeJS-Application-Gitlab
