@@ -1,6 +1,8 @@
 #!/bin/bash
 # Force your custom image naming
 docker build \
-  -t "$CI_REGISTRY_USER/solar_system:$CI_PIPELINE_ID" \
-  -t "$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG" \
+  -t "$CI_REGISTRY_IMAGE:$IMAGE_VERSION" \
+  -t "$CI_REGISTRY_IMAGE:latest" \
   .
+docker push "$CI_REGISTRY_IMAGE:$IMAGE_VERSION"
+docker push "$CI_REGISTRY_IMAGE:latest"
