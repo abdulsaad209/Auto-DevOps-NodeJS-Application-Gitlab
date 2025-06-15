@@ -6,5 +6,3 @@ user_access:
     agent: {}
   projects:
     - id: devops-group/Auto-DevOps-NodeJS-Application-Gitlab
-
-    
