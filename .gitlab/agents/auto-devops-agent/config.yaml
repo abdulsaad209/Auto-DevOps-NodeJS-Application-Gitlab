@@ -1,0 +1,4 @@
+ci_access:
+  projects:
+    - id: devops-group/Auto-DevOps-NodeJS-Application-Gitlab
+      default_namespace: staging
