@@ -1,3 +1,6 @@
+## Deploy Application using custom Configurations.
+If you wanna deploy application using custom .gitlab-ci.yml, Dockerfile, Kubernetes manifests then you can check [this repository](https://github.com/abdulsaad209/Deployed-NodeJS-Application-Gitlab).
+
 ## Prerequisites:
 * A k8s cluster setup and integrated as gitlab-agent in GitLab
 * MongoDB, If you dont have you can use the container image: saadzahid/solarsystem-mongodb:01
