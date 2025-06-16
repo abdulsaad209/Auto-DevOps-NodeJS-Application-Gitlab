@@ -3,8 +3,6 @@
 * MongoDB, If you dont have you can use the container image: saadzahid/solarsystem-mongodb:01
 * 2 branches one is feature-1-testing and second is main branch
 
-![image](https://github.com/user-attachments/assets/fae733be-08dd-47a1-b8b9-9bc3f9fb6e91)
-
 ### Step1:
 * Clone the repository and add in the GitLab project. It would be good if group and project name would be.
 * Group: devops-group
@@ -35,3 +33,6 @@
 ### Production Environment
 ![image](https://github.com/user-attachments/assets/e981ef70-c38f-4d46-9ee9-996263c52c67)
 
+
+### Deployed Application Interface
+![image](https://github.com/user-attachments/assets/fae733be-08dd-47a1-b8b9-9bc3f9fb6e91)
