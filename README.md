@@ -25,3 +25,13 @@
 
 ### Step5:
 * Create merge request and merge changes into main branch and it will deploy into production.
+
+### Building and Deploying in Staging Environment
+![image](https://github.com/user-attachments/assets/7e0a333e-20e0-46e3-9f3a-d713033fab08)
+
+### Building and deploying in Production Environment
+![image](https://github.com/user-attachments/assets/90cd3a8b-ce73-4704-9882-0a42d34a3e08)
+
+### Production Environment
+![image](https://github.com/user-attachments/assets/e981ef70-c38f-4d46-9ee9-996263c52c67)
+
