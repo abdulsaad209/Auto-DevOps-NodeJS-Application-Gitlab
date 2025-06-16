@@ -1,27 +1,27 @@
-Prerequisites:
-A k8s cluster setup and integrated as gitlab-agent in GitLab
-MongoDB, If you dont have you can use the container image: saadzahid/solarsystem-mongodb:01
-2 branches one is feature-1-testing and second is main branch
+## Prerequisites:
+* A k8s cluster setup and integrated as gitlab-agent in GitLab
+* MongoDB, If you dont have you can use the container image: saadzahid/solarsystem-mongodb:01
+* 2 branches one is feature-1-testing and second is main branch
 
 ![image](https://github.com/user-attachments/assets/fae733be-08dd-47a1-b8b9-9bc3f9fb6e91)
 
 ### Step1:
-Clone the repository and add in the GitLab project. It would be good if group and project name would be.
-Group: devops-group
-Project: Auto-DevOps-NodeJS-Application-Gitlab
+* Clone the repository and add in the GitLab project. It would be good if group and project name would be.
+* Group: devops-group
+* Project: Auto-DevOps-NodeJS-Application-Gitlab
 
 ### Step2:
-Store below variables in your GitLab CICD variables according to your values
+* Store below variables in your GitLab CICD variables according to your values
 ![image](https://github.com/user-attachments/assets/8e3479c4-ca14-4da4-8554-19487388792a)
 ![image](https://github.com/user-attachments/assets/0450abbd-093d-49c4-9051-626f2bb7d6d9)
-Remember variables should be store in correct environment as shown in the images.
+* Remember variables should be store in correct environment as shown in the images.
 
 ### Step3:
-Configure your gitlab Agent using variable KUBE_CONTEXT, If you dont want to use gitlab agent and wanna configure kube config content present in ~/.kube/config at k8s cluster.
-Then use **KUBECONFIG** instead of **KUBE_CONTEXT** in the variables. And store variable as file type.
+* Configure your gitlab Agent using variable KUBE_CONTEXT, If you dont want to use gitlab agent and wanna configure kube config content present in ~/.kube/config at k8s cluster.
+* Then use **KUBECONFIG** instead of **KUBE_CONTEXT** in the variables. And store variable as file type.
 
 ### Step4:
-Push changes to feature-1-testing branch. And everything goes well then run stop review job manually.
+* Push changes to feature-1-testing branch. And everything goes well then run stop review job manually.
 
 ### Step5:
-Create merge request and merge changes into main branch and it will deploy into production.
+* Create merge request and merge changes into main branch and it will deploy into production.
